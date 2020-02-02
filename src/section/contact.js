@@ -12,28 +12,32 @@ const Contact = () => {
 
         // console.log(name, email, message)
         // return
-        var transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-              user: 'loop.infinitly@gmail.com',
-              pass: 'Shyam@test2708'
-            }
-          });
+        // var transporter = nodemailer.createTransport({
+        //     service: 'gmail',
+        //     auth: {
+        //       user: 'loop.infinitly@gmail.com',
+        //       pass: 'Shyam@test2708'
+        //     }
+        //   });
           
-          var mailOptions = {
-            from: email,
-            to: 'loop.infinitly@gmail.com',
-            subject: 'mail from ' + name,
-            text: message
-          };
+        //   var mailOptions = {
+        //     from: email,
+        //     to: 'loop.infinitly@gmail.com',
+        //     subject: 'mail from ' + name,
+        //     text: message
+        //   };
           
-          transporter.sendMail(mailOptions, function(error, info){
-            if (error) {
-              console.log(error);
-            } else {
-              console.log('Email sent: ' + info.response);
-            }
-          });
+        //   transporter.sendMail(mailOptions, function(error, info){
+        //     if (error) {
+        //       console.log(error);
+        //     } else {
+        //       console.log('Email sent: ' + info.response);
+        //     }
+		//   });
+		// console.log('mailto:loop.infinitly@gmail.com?subject='+name+email+'&body='+message);
+		window.open('mailto:loop.infinitly@gmail.com?subject='+name+'&body='+message);
+
+		
     }
 
     return (
