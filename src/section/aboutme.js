@@ -13,7 +13,7 @@ const AboutMe = () => {
 
 				<div className="row section-content">
 					<div className="col-1-3 aboutmeimagecontainer">
-						<img alt="This is me!" className = "aboutmeimage" src="./mypic1.jpg"/>
+						<img alt="This is me!" className = "aboutmeimage" src="./shyamnew.jpg"/>
 					</div>
 					<div className="col-1-3">
 						<h4>Hi, It's me!</h4>

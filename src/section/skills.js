@@ -13,22 +13,21 @@ const Skills = () => {
 
 				<div className="row section-content">
 					<div className="skill-container">
-						<div className="col-full">
-							<div className="col-full text-center">I've worked with a wide variety of programming languages. For web applications I use PHP and Javascript. </div>
-						</div>
 						
+						<div className="col-1-5 skill">
+							<h4>React</h4>
+						</div>
+						<div className="col-1-5 skill">
+							<h4>JavaScript</h4>
+						</div>
 						<div className="col-1-5 skill">
 							<h4>PHP</h4>
 						</div>
 						<div className="col-1-5 skill">
 							<h4>Node.JS</h4>
 						</div>
-						<div className="col-1-5 skill">
-							<h4>JavaScript</h4>
-						</div>
-						<div className="col-1-5 skill">
-							<h4>React</h4>
-						</div>
+						
+						
 						<div className="col-1-5 skill">
 							<h4>Wordpress</h4>
 						</div>
@@ -39,7 +38,7 @@ const Skills = () => {
 					<div className="col-2-3 col-wrap centered skill-container">
 						<div className="col-1-2">
 							<h4>Technical</h4>
-							<ul><li>React</li><li>npm</li><li>Webpack</li><li>Redux</li><li>Flux</li><li>OpenApi</li><li>Firebase</li></ul>							
+							<ul><li>HTML5/CSS</li><li>RestAPI</li><li>OAuth</li><li>JWT</li><li>Jenkins</li><li>Docker</li><li>YAML</li><li>Postman</li><li>Redux</li><li>npm</li><li>Webpack</li><li>Redux</li><li>Flux</li><li>OpenApi</li><li>Firebase</li></ul>							
 						</div>
 						<div className="col-1-2">
 							<h4>Software</h4>

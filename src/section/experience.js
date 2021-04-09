@@ -15,10 +15,10 @@ const Expereince = () => {
 					<div className="job">
 						<div className="col-full">
 							<h3>Software Engineer</h3>
-							<div className="job-attributions">React <span className="bullet">&bull;</span> Data analysis <span className="bullet">&bull;</span> OpenApi</div>
+							<div className="job-attributions">React <span className="bullet">&bull;</span> Javascript<span className="bullet">&bull;</span> Data analysis <span className="bullet">&bull;</span> OpenApi <span className="bullet">&bull;</span>npm<span className="bullet">&bull;</span>webpack </div>
 						</div>
 
-						<div className="col-full text-center">I am responsible for building the already existing JAVA software's in React for better UI experience. I have developed many number of npm packages which is used in this softwares   </div>
+						<div className="col-full text-center">I am responsible for building the already existing JAVA software's in React for better UI experience. I have developed many number of npm packages using frontend technologies  </div>
 
 						<div className="row">
 							<div className="col-2-3 col-wrap centered">
@@ -29,14 +29,25 @@ const Expereince = () => {
                         <div className="col-2-3 col-wrap centered skill-container">
                             <div className="col-1-1">
                                 
-                                <ul>
-                                    <li>Build already existing JAVA softwares in React.</li>
-                                    <li>Expert with react workflows such as flux and redux</li>
-                                    <li>Developed an interface for handling OpenApi server calls.</li>
-                                    <li>Created a package <strong>AttributeEdit</strong> which does <strong>Metric and Imperial Conversion</strong> with validation. Here the user can set the type of attribute(Weight, Length etc), set preferred output unit(kg, mm etc) and set the number of decimal points. For selected attribute type only the available unit can be typed all other characters will be restricted. Currently it handles 36 different attributes.</li>
-                                    <li>Developed a <strong>React-Dialog</strong> with drag and exapnd functionality. It also provides provision for storing the last size and posisition of the dialog.</li>
-                                    <li>Developed a <strong>Dynamic Redrawing Canvas </strong> based on data from server which is refershed regularly</li>
-                                </ul>							
+							<li>Development of UI frameworks for web applications support</li>
+							<li>Designed, architected and wrote the front-end of our products using ReactJS
+							with 100+ reusable components</li>
+							<li>Frontend architecture using Redux, Flux in the Node-powered workflow</li>
+							<li>Experience with Swagger, Postman OpenAPI and YAML</li>
+							<li>Involved OAuth (Google and AzureAD) for authentication</li>
+							<li>Involved JWT token to prevent unauthenticated users from accessing
+							restricted routes and realize user authentication</li>
+							<li>Enhanced the system to improve user experience and developed functions to
+							acquire data from REST micro services</li>
+							<li>Generated interactive data visualization using Chartjs</li>
+							<li>Developed react component to dynamically render different shapes using
+							Three.js and WebGL</li>
+							<li>Developed mini CAD/CAM using canvas as well as SVG</li>
+							<li>Cooperate with the architect and backend devs of the application</li>
+							<li>Involved jenkins as a CI/CD</li>
+							<li>Used Agile Development Methodology and Kanban team structure for
+							development process</li>
+							<li>Used GIT for version control</li>							
                             </div>
                             
                         </div>
